@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+                    
+.bottom-border {
+    border-color: #5bc0be;
+}
 
 header {
     padding: 20px 35px;
@@ -12,6 +16,7 @@ header {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
+    
 
 }
 
@@ -20,6 +25,13 @@ header h1 {
     font-size: 36px;
     color: #3a506b;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav li {
@@ -44,16 +56,24 @@ header a:hover {
     text-shadow: none;
 }
 
+.section-title {
+    color: #3653a8;
+    text-align: center;
+    font-size: 50px;
+}
 
 .about-me {
     display: flex;
-    gap: 20px;
-    padding: 5px 300px 5px 10px;
-    justify-content: space-around;
-
+    flex-flow: row;
+    gap: 45px;
+    padding: 25px;
+    border-bottom: 3px solid;
 }
 
-.before-portfolio {
-    padding: 5px;
+.about-me p, .about-me h2 {
+    padding: 30px;
 }
+
+
+
 
