@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: #0b132b;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: #3a506b;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
+
+header nav li {
+    display: inline;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #3a506b;
+    font-size: xx-large;
+    padding: 10px 15px;
+}
+
+header a:hover {
+    background: #ffffff;
+    color: #5bc0be;
+    border-radius: 10px;
+    text-shadow: none;
+}
+
+
+.about-me {
+    display: flex;
+    gap: 20px;
+    padding: 5px 300px 5px 10px;
+    justify-content: space-around;
+
+}
+
+.before-portfolio {
+    padding: 5px;
+}
+
