@@ -107,7 +107,7 @@ header a:hover {
 .portfolio div {
     width: 300px;
     height: 200px;
-    border: 3px solid #000000;
+    border-radius: 35px;
 
 }
 
@@ -116,10 +116,10 @@ header a:hover {
     background-image: url(../images/runbuddy.JPG);
     background-size: cover;
     background-position: center;
-    position: relative;
-    overflow: wrap;
+
     
 }
+
 
 .python {
     background-image: url(../images/python.jpg);
@@ -129,6 +129,13 @@ header a:hover {
 .javascript {
     background-image: url(../images/javascript.jpg);
     background-size: cover;
+}
+
+
+/*Hoover Actions for Portfolio*/
+.run-buddy:hover, .python:hover, .javascript:hover {
+    width: 500px;
+    height: 400px;
 }
 
 .contact-me {
