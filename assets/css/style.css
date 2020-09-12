@@ -10,7 +10,7 @@
 
 header {
     padding: 45px;
-    background-color: #0b132b;
+    background-color: #6b82c5;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -23,15 +23,15 @@ header {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: #3a506b;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+    color: #000000;
+    
 }
 
 header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 header nav li {
@@ -44,7 +44,7 @@ header nav li {
 
 header a {
     text-decoration: none;
-    color: #3a506b;
+    color: #000000;
     font-size: xx-large;
     padding: 10px 15px;
 }
@@ -58,8 +58,9 @@ header a:hover {
 
 .section-title {
     color: #3653a8;
-    font-size: 50px;
-    padding: 35px;
+    font-size: 40px;
+    padding: 20px;
+    border-right: 2px solid #0b132b;
     
 }
 
@@ -71,8 +72,9 @@ header a:hover {
     display: flex;
     flex-flow: row;
     gap: 15px;
-    padding: 25px;
-    border-bottom: 3px solid;
+    margin: 1em;
+    padding: 35px;
+    border-bottom: 1.5px solid;
 }
 
 .about-me p {
@@ -82,17 +84,25 @@ header a:hover {
 
 }
 
+.portfolio {
+    display: flex;
+    flex-flow: row;
+    padding: 1em;
+    
+}
+
 .pic-me {
     margin: 2em;
 }
 
+/*
 .portfolio {
     display: flex;
     flex-flow: row;
     gap: 45px;
     padding: 35px;
 }
-
+*/
 .work-examples {
     display: inline;
     
@@ -104,5 +114,7 @@ header a:hover {
 }
 
 .contact-me {
-
+    display: flex;
+    flex-flow: row;
+    padding: 1em;
 }
