@@ -30,15 +30,13 @@
 <!--Need to make sure that we align the nav correctly. Might need to fight with some padding or border stuff-->
 
 <!--This section will need to be pushed to the left side of the screen to allow for the pic of myself-->
-        <section>
+        <section id="about-me">
             <div class="about-me bottom-border">
                     <div>
-                        <h2 id="about-me" class="section-title">About Me</h2>
+                        <h2  class="section-title">About Me</h2>
                     </div>
                     
-                    <div class="pic-me">
-                        <img src="./assets/images/placeholder.png" alt="placeholder"/>
-                    </div>
+                    <div class="selfie"></div>
 
                     <div>
                         <p>
@@ -56,11 +54,15 @@
 
 
 <!--Example section of work that I have completed.-->
-        <section>
+        <section id="portfolio">
             <div class="portfolio">
-                <h2 id="portfolio" class="section-title">
+                <h2  class="section-title">
                     Portfolio
                 </h2>
+
+                <div class="run-buddy">box 1   </div>
+                <div class="python">box 2</div>
+                <div class="javascript">box 3</div>
             </div>
 
 
@@ -70,14 +72,38 @@
 
 <!--Contact me Section-->
 
-        <section>
-            <div>
-                <h2 id="contact-me" class="section-title">Contact Me</h2>
+        <section id="contact-me" class="Contact">
+            <h2 class="section-title"> Contact Me</h2>
+
+            <div class="contact-info">
+                <h3>For Any Questions</h3>
+                <p>
+                    Please feel free to contact me for help with your next
+                    project!
+                </p>
+                <br  />
+                <address>
+                    1234 Panda Circle <br  />
+                    Panda Town, WI 54656<br  />
+                    P: 651.555.5469 <br  />
+                    E: <a href="mailto:Sronchak@ronchakdesign.com">Sronchak@ronchakdesign.com</a>
+                </address>
+
+
             </div>
-
-
-
             
+            <div class="contact-form">
+                <h3>Contact Me</h3>
+                <form>
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Your Name"/>
+                        <br  />
+                    <label for="contact-message">Message</label>
+                    <textarea id="contact-message" placeholder="Message"></textarea>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
         </section>
 
     </body>

@@ -16,6 +16,7 @@ header {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
+    z-index: 9999;
     
 
 }
@@ -60,7 +61,7 @@ header a:hover {
     color: #3653a8;
     font-size: 40px;
     padding: 20px;
-    border-right: 2px solid #0b132b;
+
     
 }
 
@@ -78,43 +79,89 @@ header a:hover {
 }
 
 .about-me p {
-    margin: 2em;
+    margin: 1em;
     max-width: 100%;
     max-height: none;
 
 }
 
+.selfie {
+    background-image: url(../images/self.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+
+}
+
 .portfolio {
-    display: flex;
-    flex-flow: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     padding: 1em;
+    grid-gap: 5px;
+    border-bottom: 2px solid black;
+}
+.portfolio div {
+    width: 100%;
+    height: 200px;
+    border: 3px solid #000000;
+
+}
+
+
+.run-buddy {
+    background-image: url(../images/runbuddy.JPG);
+    background-size: cover;
     
 }
 
-.pic-me {
-    margin: 2em;
+.python {
+    background-image: url(../images/python.jpg);
+    background-size: cover;
 }
 
-/*
-.portfolio {
-    display: flex;
-    flex-flow: row;
-    gap: 45px;
-    padding: 35px;
-}
-*/
-.work-examples {
-    display: inline;
-    
-}
-
-
-.work-examples img {
-      
+.javascript {
+    background-image: url(../images/javascript.jpg);
+    background-size: cover;
 }
 
 .contact-me {
     display: flex;
     flex-flow: row;
-    padding: 1em;
+    margin: 2em;
+}
+
+.contact-form {
+    background-color: #5bc0be;
+    padding: 20px;
+    color: #6b82c5;
+    border: solid 3px #000000;
+    width: 80%;
+    margin: 3.5%;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+.contact-form h3 {
+    font-size: 24px;
+    padding: 5px;
+}
+
+.contact-form p {
+    margin: 5px 0 15px 0;
+    
+}
+
+
+.contact-info {
+    padding: 20px;
+}
+
+.Contact {
+    width: 100%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
 }
